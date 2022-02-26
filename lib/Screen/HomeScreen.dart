@@ -12,7 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffEEEEFF),
+      backgroundColor: Color.fromARGB(255, 9, 9, 70),
       body: SingleChildScrollView(
         child: Blogs(
           url: "/blogpost/getOtherBlog",
