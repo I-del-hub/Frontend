@@ -76,7 +76,7 @@ class _MyAppState extends State<MyApp> {
       
   //   );
   // }
-  //add widget
+  
   
   Widget page = LoadingPage();
   final storage = FlutterSecureStorage();
