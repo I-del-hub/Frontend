@@ -151,7 +151,7 @@ class _WelcomePageState extends State<WelcomePage>
                       ),
                     ),
                     SizedBox(
-                      width: 10,
+                      width: 8,
                     ),
                     InkWell(
                       onTap: () {
