@@ -227,10 +227,10 @@ class _WelcomePageState extends State<WelcomePage>
                 children: [
                   Image.asset(
                     path,
-                    height: 25,
-                    width: 25,
+                    height: 20,
+                    width: 20,
                   ),
-                  SizedBox(width: 20),
+                  SizedBox(width: 25),
                   Text(
                     text,
                     style: TextStyle(fontSize: 16, color: Color.fromARGB(221, 0, 0, 0)),
