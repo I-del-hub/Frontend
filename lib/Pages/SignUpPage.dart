@@ -67,11 +67,11 @@ class _SignUpPageState extends State<SignUpPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Sign up ",
+                "Signup ",
                 style: TextStyle(
                   color: Color.fromARGB(255, 10, 10, 10),
-                  fontSize: 30,
-                  height: 1,
+                  fontSize: 35,
+                  height: 0,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold,
                   letterSpacing: 2,
