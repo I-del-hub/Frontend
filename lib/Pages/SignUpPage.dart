@@ -208,11 +208,11 @@ class _SignUpPageState extends State<SignUpPage> {
           Text("User",
           style: TextStyle(
 
-                    fontSize: 40,
+                    fontSize: 0,
                      fontFamily: 'Raleway',
                     fontWeight: FontWeight.bold,
 
-                    letterSpacing: 26,
+                    letterSpacing: 2,
 
                     color: Color.fromARGB(255, 12, 12, 12),
 
