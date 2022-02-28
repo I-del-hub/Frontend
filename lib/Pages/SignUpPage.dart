@@ -205,7 +205,7 @@ class _SignUpPageState extends State<SignUpPage> {
       padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 10.0),
       child: Column(
         children: [
-          Text("User",
+          Text("Username",
           style: TextStyle(
 
                     fontSize: 20,
