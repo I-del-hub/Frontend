@@ -205,14 +205,14 @@ class _SignUpPageState extends State<SignUpPage> {
       padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 10.0),
       child: Column(
         children: [
-          Text("Username",
+          Text("User",
           style: TextStyle(
 
-                    fontSize: 20,
+                    fontSize: 40,
                      fontFamily: 'Raleway',
                     fontWeight: FontWeight.bold,
 
-                    letterSpacing: 2,
+                    letterSpacing: 26,
 
                     color: Color.fromARGB(255, 12, 12, 12),
 
