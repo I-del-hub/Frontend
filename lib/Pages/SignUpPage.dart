@@ -208,7 +208,7 @@ class _SignUpPageState extends State<SignUpPage> {
           Text("User",
           style: TextStyle(
 
-                    fontSize: 0,
+                    fontSize: 20,
                      fontFamily: 'Raleway',
                     fontWeight: FontWeight.bold,
 
