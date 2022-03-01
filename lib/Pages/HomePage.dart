@@ -81,21 +81,21 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-            ListTile(
-              title: Text("All Post"),
-              trailing: Icon(Icons.launch),
-              onTap: () {},
-            ),
-            ListTile(
-              title: Text("New Story"),
-              trailing: Icon(Icons.add),
-              onTap: () {},
-            ),
-            ListTile(
-              title: Text("Settings"),
-              trailing: Icon(Icons.settings),
-              onTap: () {},
-            ),
+            // ListTile(
+            //   title: Text("All Post"),
+            //   trailing: Icon(Icons.launch),
+            //   onTap: () {},
+            // ),
+            // ListTile(
+            //   title: Text("New Story"),
+            //   trailing: Icon(Icons.add),
+            //   onTap: () {},
+            // ),
+            // ListTile(
+            //   title: Text("Settings"),
+            //   trailing: Icon(Icons.settings),
+            //   onTap: () {},
+            // ),
             ListTile(
               title: Text("Feedback"),
               trailing: Icon(Icons.feedback),
