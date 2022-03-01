@@ -53,11 +53,11 @@ class _HomePageState extends State<HomePage> {
     } else {
       setState(() {
         profilePhoto = Container(
-          // height: 100,
-          // width: 100,
-          // decoration: BoxDecoration(
-          //   color: Colors.black,
-          //   borderRadius: BorderRadius.circular(50),
+          height: 100,
+          width: 100,
+          decoration: BoxDecoration(
+            color: Colors.black,
+            borderRadius: BorderRadius.circular(50),
           ),
         );
       });
