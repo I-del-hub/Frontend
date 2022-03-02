@@ -96,13 +96,13 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
 
                     // login logic End here
                   },
-                  // child: Container(
-                  //   width: 150,
-                  //   height: 50,
-                  //   decoration: BoxDecoration(
-                  //     borderRadius: BorderRadius.circular(10),
-                  //     color: Color.fromARGB(255, 82, 4, 4),
-                  //   ),
+                  child: Container(
+                    width: 150,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      color: Color.fromARGB(255, 82, 4, 4),
+                    ),
                     child: Center(
                       child: circular
                           ? CircularProgressIndicator()
