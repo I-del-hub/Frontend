@@ -109,14 +109,14 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      // appBar: AppBar(
-      //   backgroundColor: Color(0xFF3E2723),
-      //   title: Text(titleString[currentState]),
-      //   centerTitle: true,
-      //   actions: <Widget>[
-      //     IconButton(icon: Icon(Icons.notifications), onPressed: () {}),
-      //   ],
-      // ),
+      appBar: AppBar(
+        backgroundColor: Color(0xFF3E2723),
+        title: Text(titleString[currentState]),
+        centerTitle: true,
+        actions: <Widget>[
+          IconButton(icon: Icon(Icons.notifications), onPressed: () {}),
+        ],
+      ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
         backgroundColor: Color(0xFF880E4F),
