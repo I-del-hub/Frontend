@@ -44,21 +44,21 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
             tileMode: TileMode.repeated,
           ),
         ),
-        child: Form(
-          key: _globalkey,
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 10.0),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  "Forgot Password",
-                  style: TextStyle(
-                    fontSize: 30,
-                    fontFamily: 'Raleway',
-                    fontWeight: FontWeight.bold,
-                    letterSpacing: 2,
-                  ),
+        // child: Form(
+        //   key: _globalkey,
+        //   child: Padding(
+        //     padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 10.0),
+        //     child: Column(
+        //       mainAxisAlignment: MainAxisAlignment.center,
+        //       children: [
+        //         Text(
+        //           "Forgot Password",
+        //           style: TextStyle(
+        //             fontSize: 30,
+        //             fontFamily: 'Raleway',
+        //             fontWeight: FontWeight.bold,
+        //             letterSpacing: 2,
+        //           ),
                 ),
                 SizedBox(
                   height: 20,
