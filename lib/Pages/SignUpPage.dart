@@ -204,20 +204,20 @@ class _SignUpPageState extends State<SignUpPage> {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 10.0),
       child: Column(
-        children: [
-          Text("Username",
-          style: TextStyle(
+//         children: [
+//           Text("Username",
+//           style: TextStyle(
 
-                    fontSize: 20,
-                     fontFamily: 'Raleway',
-                    fontWeight: FontWeight.bold,
+//                     fontSize: 20,
+//                      fontFamily: 'Raleway',
+//                     fontWeight: FontWeight.bold,
 
-                    letterSpacing: 2,
+//                     letterSpacing: 2,
 
-                    color: Color.fromARGB(255, 12, 12, 12),
+//                     color: Color.fromARGB(255, 12, 12, 12),
 
-                  ),
-),
+//                   ),
+// ),
           TextFormField(
             controller: _usernameController,
             decoration: InputDecoration(
