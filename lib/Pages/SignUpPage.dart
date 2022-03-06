@@ -218,14 +218,14 @@ class _SignUpPageState extends State<SignUpPage> {
 
                   ),
 ),
-          // TextFormField(
-          //   controller: _usernameController,
-          //   decoration: InputDecoration(
-          //     errorText: validate ? null : errorText,
-          //     focusedBorder: UnderlineInputBorder(
-          //       borderSide: BorderSide(
-          //         color: Colors.white,
-          //         width: 2,
+          TextFormField(
+            controller: _usernameController,
+            decoration: InputDecoration(
+              errorText: validate ? null : errorText,
+              focusedBorder: UnderlineInputBorder(
+                borderSide: BorderSide(
+                  color: Colors.white,
+                  width: 2,
                 ),
               ),
             ),
